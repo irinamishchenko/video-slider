@@ -1,0 +1,38 @@
+section {
+  position: relative;
+  height: 350px;
+}
+
+.swiper {
+  width: 1200px;
+  display: flex;
+}
+
+.swiper-wrapper {
+  display: flex;
+  gap: 0;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  padding: 7px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: white;
+}
+
+.swiper-slide__video {
+  width: 300px;
+  height: 300px;
+}
